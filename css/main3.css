@@ -1,0 +1,11 @@
+img{width: 100px; float: left;}
+p{color: black; font-size: 20px; line-height: 50px; font-family: sans-serif; margin: 0 10%;}
+ul{padding: 0; text-decoration: none; list-style: none;}
+li{padding: 0 0 0 30px;}
+hr{height: 2px; background: #efeff4;}
+.common{font-size: 20px; padding: 15px; background: #efeff4; margin-bottom: 20px; border-top: 2px solid rgba(229, 229, 229, 0.82); border-bottom: 2px solid rgba(229, 229, 229, 0.82);}
+
+@media screen and (max-width:992px) and (min-width:200px){
+    img{width: 60px;}
+    p{font-size: 15px; line-height: 30px; margin: 0 23%;}
+}
