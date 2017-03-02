@@ -4,6 +4,35 @@
     {
       "icon": {
         "paths": [
+          "M426.667 170.667q17.667 0 30.167 12.5t12.5 30.167q0 18-12.667 30.333l-225.667 225.667h665q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-665l225.667 225.667q12.667 12.333 12.667 30.333 0 17.667-12.5 30.167t-30.167 12.5q-18 0-30.333-12.333l-298.667-298.667q-12.333-13-12.333-30.333t12.333-30.333l298.667-298.667q12.667-12.333 30.333-12.333z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "arrow-left"
+        ],
+        "grid": 24
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "arrow",
+        "prevSize": 24,
+        "code": 59652
+      },
+      "setIdx": 0,
+      "setId": 11,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M316 658l-60-60 256-256 256 256-60 60-196-196z"
         ],
         "attrs": [
@@ -26,7 +55,7 @@
         "code": 59651,
         "name": "top"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 10,
       "iconIdx": 0
     },
@@ -61,7 +90,7 @@
         "prevSize": 32,
         "code": 59648
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 9,
       "iconIdx": 0
     },
@@ -86,7 +115,7 @@
         "code": 59649,
         "name": "mail"
       },
-      "setIdx": 8,
+      "setIdx": 9,
       "setId": 2,
       "iconIdx": 4
     },
@@ -113,9 +142,67 @@
         "code": 61506,
         "name": "present"
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 7,
       "iconIdx": 65
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512.416 1024v-512.544h-512.416l1024-511.456-511.584 1024z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "location",
+          "map",
+          "compass",
+          "direction"
+        ],
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "id": 56,
+        "order": 31,
+        "prevSize": 32,
+        "code": 59653,
+        "name": "location"
+      },
+      "setIdx": 8,
+      "setId": 3,
+      "iconIdx": 55
+    },
+    {
+      "icon": {
+        "paths": [
+          "M800.571 199.429l-365.714 731.429c-6.286 12.571-18.857 20-32.571 20-2.857 0-5.714-0.571-8.571-1.143-16.571-4-28-18.286-28-35.429v-329.143h-329.143c-17.143 0-31.429-11.429-35.429-28s4-33.714 18.857-41.143l731.429-365.714c5.143-2.857 10.857-4 16.571-4 9.714 0 18.857 3.429 25.714 10.857 11.429 10.857 14.286 28 6.857 42.286z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 805,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "location-arrow"
+        ],
+        "grid": 14
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 10,
+        "prevSize": 28,
+        "code": 59654,
+        "name": "location-arrow"
+      },
+      "setIdx": 5,
+      "setId": 6,
+      "iconIdx": 0
     },
     {
       "icon": {
@@ -143,9 +230,9 @@
         "code": 59650,
         "name": "left"
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 6,
-      "iconIdx": 0
+      "iconIdx": 1
     }
   ],
   "height": 1024,

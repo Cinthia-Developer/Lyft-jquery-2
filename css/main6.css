@@ -1,10 +1,11 @@
-#icono, #perfil, .btn, #white{z-index: 5; position: absolute;}
+#perfil, .btn, .uno, .dos{z-index: 5; position: absolute;}
 #perfil{height: 55px; width: 55px; border-radius: 100%; left: 3%; top: 2%; border: 2px solid #bebcb6;}
 /*#logo{top: 1px; left: 300px;}*/
-#icono{top: 2%; right: 3%; padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 28px;}
 .btn{width: 98%; margin: 1%; bottom: 1%;}
-.btn-primary{background: #3d0981; border: 1px solid #3d0981; font-size: 30px; color: white;  height: 10%;}
-.btn-primary:hover{background: rgba(61, 9, 129, 0.88); border: 1px solid #3d0981;}
+.btn-primary{background: #ff00bf; border: 1px solid #ff00bf; font-size: 30px; color: white;  height: 10%;}
+.btn-primary:hover{background: rgba(255, 0, 191, 0.88); border: 1px solid rgba(255, 0, 191, 0.88);}
 #map{position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
 h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow: -2px -2px 2px #bebcb6, 2px -2px 2px #bebcb6, -2px 2px 2px #bebcb6, 2px 2px 2px #bebcb6; font-size: 40px;}
-#white{width: 100%; margin:1%; bottom: 11%;}
+.uno, .dos{padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 25px; top: 40%;}
+.uno{left: 3%;}
+.dos{right: 3%;}
