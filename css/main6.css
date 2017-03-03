@@ -1,10 +1,29 @@
-#perfil, .btn, .uno, .dos, .caja{z-index: 5; position: absolute;}
+#perfil, .submit, .one, .two, .cuadro{z-index: 5; position: absolute;}
 #perfil{height: 55px; width: 55px; border-radius: 100%; left: 3%; top: 2%; border: 2px solid #bebcb6;}
 /*#logo{top: 1px; left: 300px;}*/
-
+.submit{bottom: 0.5%; width: 98%; margin: 1%; height: 10%; text-align: center; background: #ff00bf; font-size: 40px; border-radius: 10px; color: white;}
 #map{position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
 h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow: -2px -2px 2px #bebcb6, 2px -2px 2px #bebcb6, -2px 2px 2px #bebcb6, 2px 2px 2px #bebcb6; font-size: 40px;}
-.uno, .dos{padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 25px; top: 40%;}
-.uno{left: 3%;}
-.dos{right: 3%;}
-.caja{padding: 15px; border-radius: 10px; border: 2px solid #bebcb6; background: white; font-size: 25px; bottom: 15%; width: 98%; margin: 1%;}
+.one, .two{padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 25px; top: 40%;}
+.one{left: 3%;}
+.two{right: 3%;}
+/*----------cuadro---*/
+.tarjeta{ width: 8%; margin-right: 0; display: inline;width: 17%; display: inline;}
+.cuadro{bottom: 12%; background: #F3F3F5; margin: 1%; border-radius: 20px; border: solid 1px #bebcb6; width: 98%;}
+.row, col-xs-6, col-xs-12, col-xs-1, col-xs-11 {width: 100%; margin: 0;}
+.auto{width: 30%; float: right;}
+.fast{padding-left: 0;}
+.primero{border-bottom: 1px solid #c3c3c3; padding-bottom: 2%;}
+.segundo{border-bottom: 1px solid #c3c3c3;}
+.fast h4{margin-bottom: 0px;}
+.segundo h5{display: inline;}
+.borderecho{border-right: 1px solid #c3c3c3;}
+.padre{padding-top: 2%; padding-bottom: 2%;}
+.tercero{background-color: #fff; border-bottom-left-radius: 5%; border-bottom-right-radius: 5%;}
+.tercero .col-xs-10 {padding-right: 0;}
+.uno{width: 15px; height: 15px; border-radius: 100%; background-color: darkblue; border: 1px solid darkblue; margin-top: 12px; margin-left: 12px;}
+.dos{width: 15px; height: 15px; border-radius: 100%; background-color: #fa24e1; border: 1px solid #fa24e1; margin-left: 12px;}
+.direccion ul{list-style: none; padding-top: 2%; padding-left: 0;}
+.direccion, .punto{padding:0;}
+.partida{border-bottom: 1px solid #c3c3c3; padding-bottom: 2%;}
+.llegada{padding-top: 2%;}

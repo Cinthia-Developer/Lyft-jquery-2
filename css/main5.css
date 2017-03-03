@@ -6,7 +6,7 @@
 #map{position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
 h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow: -2px -2px 2px #bebcb6, 2px -2px 2px #bebcb6, -2px 2px 2px #bebcb6, 2px 2px 2px #bebcb6; font-size: 40px;}
 .white{width: 98%; margin: 1%; bottom: 12%; background: white; border-radius: 10px; border: 2px solid #bebcb6; font-size: 16px; height: 10%;}
-.icon-top{font-size: 30px; background: white; border: 2px solid black; border-radius: 100%; float: right; margin: 10px;}
+.icon-down{font-size: 20px; background: white; border: 2px solid black; border-radius: 100%; float: right; margin: 10px; padding: 5px;}
 ul p{display: inline-block; font-size: 17px; margin: 10px; text-align: center; float: right;}
 ul span{font-size: 40px; margin: 10px;}
 ul h4{display: inline-block; margin: 20px;}

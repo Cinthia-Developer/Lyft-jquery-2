@@ -14,21 +14,51 @@
     <img  id="perfil" src="images/foto.jpg" alt="perfil">
     <h2 id="logo"><b>Lyft</b></h2>        
     <div id="map"></div>
-    <span class="icon-arrow uno" ></span>
-    <span class="icon-location dos"></span>
-    <a href="index7.html"><button type="button" class="btn btn-primary">Request Lyft</button></a>
-    
-    <div class="caja">
-        <div class="row">
+    <span class="icon-arrow one" ></span>
+    <span class="icon-location two"></span>
+        
+    <div class="cuadro">
+        <div class="row primero">
             <div class="col-xs-6">
-                <img src="images/auto.jpg" alt="" class="auto img-responsive" width="100%" height="50%">
+                <img class="img-responsive auto" src="images/auto.jpg" alt="">            
             </div>
-            <div class="col-xs-6">
-                <p>Lyft<br><small>Fast ride, 4 seats</small></p>
-            </div>   
-        </div> <!--cierre de row--> 
-    </div><!--cierre de caja-->
-    <script src="js/main5.js"></script>
+            <div class="col-xs-6 fast">
+                <h4>Lyft<br><small>Fast ride, 4 seats</small></h4>
+            </div>
+        </div><!--cierre de row primero-->
+        <div class="row segundo">
+            <div class="col-xs-6 text-center borderecho">
+                <div class="padre">
+                    <img class="img-responsive tarjeta" src="images/tarjeta.png" alt="">
+                    <h5>Personal<br><small>Payment</small></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center">
+                <div class="padre">
+                    <h5>$6-12</h5>
+                    <br>
+                    <small>Price estimate</small>
+                </div>
+            </div>
+        </div><!--cierre de row segundo-->
+        <div class="row tercero">
+            <div class="col-xs-1 punto">
+                <div class="uno"></div>
+                <br>
+                <div class="dos"></div>
+            </div>
+            <div class="col-xs-11 direccion">
+                <ul>
+                    <li class="partida">2300 Harrison St</li>
+                    <li class="llegada">Caltrain station</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <a href="index7.html"><div class="submit">Request Lyft</div></a>
+    
+    <script src="js/main6.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGsppc9qpjaEclguYqGO8UWZiDqUIT3FA&callback=initMap"></script>
      <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
