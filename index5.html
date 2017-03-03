@@ -15,20 +15,26 @@
     <h2 id="logo"><b>Lyft</b></h2>
     <span id="icono" class="icon-present"></span>        
     <div id="map"></div>
-   <div class="btn-group dropup" id="white"> 
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          <span class="icon-top"></span>
-          <span class="sr-only">Toggle Dropdown</span>
-          2300 Harrison St <br><small>Pick Up Location</small>
-        </button>
+<!-- Dropdown Bootstrap-->
+    <div class="btn-group dropup white"> 
+        <div type="button" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="row">
+                <div class="col-md-1 col-xs-3">
+                    <span class="icon-top"></span>
+                </div>
+                <div class="col-md-11 col-xs-9">
+                     <h4>2300 Harrison St <br><small>Pick Up Location</small></h4>
+                </div>
+            </div>
+        </div>
         <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Lyne</a></li>
-          <li><a href="#">Lyft</a></li>
-          <li><a href="#">Plus</a></li>
-          <li><a href="#">Premier</a></li>
+               <li><span class="icon-person"></span><h4>Lyne<br><small>Shared, 2 riders max</small></h4><p>3<br>min</p></li>
+               <li><span class="icon-person"></span><h4>Lyft<br><small>4 seats</small></h4><p>3<br>min</p></li>
+               <li><span class="icon-person"></span><h4>Plus<br><small>6 seats</small></h4><p>4<br>min</p></li>
+               <li><span class="icon-person"></span><h4>Premier<br><small>High-end, 4 seats</small></h4><p>3<br>min</p></li>
         </ul>
-      </div>  
-    <a href="index6.html"><button type="button" class="btn btn-primary">Set Pickup</button></a>
+    </div> <!--cierre de dropdown-->
+    <div class="submit">Set Pickup</div>
     <script src="js/main5.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGsppc9qpjaEclguYqGO8UWZiDqUIT3FA&callback=initMap"></script>
      <script src="http://code.jquery.com/jquery.min.js"></script>
