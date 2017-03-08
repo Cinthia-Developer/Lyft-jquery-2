@@ -68,6 +68,3 @@ function initMap() {
     icon: "images/carro2.jpg"
   });
 }
-
-
-

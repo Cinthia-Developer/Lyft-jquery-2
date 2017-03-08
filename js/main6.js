@@ -68,8 +68,8 @@ function initMap() {
     title: 'Gustavo',
     icon: "images/carro2.jpg"
   });
-    
-    $(".partida").
+    solicitarEstimado()
+
 }
 
 //---------------------------ajax------------------
@@ -78,14 +78,15 @@ function solicitarEstimado(){
         url:"https://clientes.geekadvice.pe/api/estimado",
         data:{"tipo":1}
     }).success(function(_data){
-  //      console.log(_data);
+     //  console.log(_data);
         update(_data);
         
     }) 
 }
 
 function update(_info){
-    alert(_info.destino);
-    alert(_info.estimado.min);
+    $(".partida").html(_info.origen);
+    $(".llegada").html(_info.destino);
+    $(".precio").html(_info.estimado.moneda + _info.estimado.min);
 }
  
