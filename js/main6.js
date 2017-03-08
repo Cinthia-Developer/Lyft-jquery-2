@@ -1,4 +1,5 @@
 function initMap() {
+    
     var myLatLng = {lat: -16.457148 , lng: -71.530759};
     var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
@@ -67,5 +68,24 @@ function initMap() {
     title: 'Gustavo',
     icon: "images/carro2.jpg"
   });
+    
+    $(".partida").
+}
+
+//---------------------------ajax------------------
+function solicitarEstimado(){
+    $.ajax({
+        url:"https://clientes.geekadvice.pe/api/estimado",
+        data:{"tipo":1}
+    }).success(function(_data){
+  //      console.log(_data);
+        update(_data);
+        
+    }) 
+}
+
+function update(_info){
+    alert(_info.destino);
+    alert(_info.estimado.min);
 }
  
