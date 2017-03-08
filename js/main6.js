@@ -68,7 +68,7 @@ function initMap() {
     title: 'Gustavo',
     icon: "images/carro2.jpg"
   });
-    solicitarEstimado()
+    solicitarEstimado();
 
 }
 

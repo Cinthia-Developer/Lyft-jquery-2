@@ -10,7 +10,7 @@ function onNextClick(){
 }
 //-- Funcion para aceptar solo números en el input nombre con Jquery:
 $("#input1").keyup(function(){
- this.value = (this.value + '').replace(/[^a-z]/g, '');
+ this.value = (this.value + '').replace(/[^a-z][^A-Z]/g,"");
 });
 //-- Funcion para validar el nombre:
 function firstNameChanges(){

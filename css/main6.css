@@ -8,22 +8,20 @@ h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow
 .one{left: 3%;}
 .two{right: 3%;}
 /*----------cuadro---*/
-.tarjeta{ width: 8%; margin-right: 0; display: inline;width: 17%; display: inline;}
+.tarjeta{width: 8%; margin-right: 0; display: inline;}
 .cuadro{bottom: 12%; background: #F3F3F5; margin: 1%; border-radius: 20px; border: solid 1px #bebcb6; width: 98%;}
 .row, col-xs-6, col-xs-12, col-xs-1, col-xs-11 {width: 100%; margin: 0;}
-.auto{width: 30%; float: right;}
+.auto{width: 150px; float: right;}
 .fast{padding-left: 0;}
-.primero{border-bottom: 1px solid #c3c3c3; padding-bottom: 2%;}
-.segundo{border-bottom: 1px solid #c3c3c3;}
+.primero, .segundo{border-bottom: 1px solid #c3c3c3;}
 .fast h4{margin-bottom: 0px;}
 .segundo h5{display: inline;}
 .borderecho{border-right: 1px solid #c3c3c3;}
-.padre{padding-top: 2%; padding-bottom: 2%;}
+.padre{padding-top: 1%; padding-bottom: 1%;}
 .tercero{background-color: #fff; border-bottom-left-radius: 5%; border-bottom-right-radius: 5%;}
 .tercero .col-xs-10 {padding-right: 0;}
-.uno{width: 15px; height: 15px; border-radius: 100%; background-color: darkblue; border: 1px solid darkblue; margin-top: 12px; margin-left: 12px;}
-.dos{width: 15px; height: 15px; border-radius: 100%; background-color: #fa24e1; border: 1px solid #fa24e1; margin-left: 12px;}
-.direccion ul{list-style: none; padding-top: 2%; padding-left: 0;}
-.direccion, .punto{padding:0;}
-.partida{border-bottom: 1px solid #c3c3c3; padding-bottom: 2%;}
-.llegada{padding-top: 2%;}
+.uno, .dos{width: 15px; height: 15px; border-radius: 100%; background-color: darkblue; border: 1px solid darkblue; margin-top: 10%; margin-left: 12px;}
+.dos{background: #ff00bf; border-color:#ff00bf;}
+.direccion ul{list-style: none; padding-top: 1%; padding-left: 0;}
+.partida{border-bottom: 1px solid #c3c3c3; padding-bottom: 1%;}
+.llegada{padding-top: 1%;}
