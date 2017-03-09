@@ -1,4 +1,11 @@
-function initMap() {
+function init(){
+    if(navigator.geolocation){
+        navigator.geolocation.watchPosition(centrarMapa);
+        initMap();
+    }
+}
+//------------------posicionamiento de los carros-----------------
+function initMap(){
     var myLatLng = {lat: -16.457148 , lng: -71.530759};
     var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
@@ -68,3 +75,10 @@ function initMap() {
     icon: "images/carro2.jpg"
   });
 }
+
+function centrarMapa(position){
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+        title:"Mi posición actual"
+    });
+};

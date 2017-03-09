@@ -14,5 +14,6 @@ function solicitarEstimado(){
 
 function update(_info){
     $(".costo").html(_info.estimado.moneda + _info.final);
+    $(".chofer").html(_info.conductor.name);
     $(".perfil").attr("src", _info.conductor.url);
 }
