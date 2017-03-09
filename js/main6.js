@@ -1,5 +1,4 @@
 function initMap() {
-    
     var myLatLng = {lat: -16.457148 , lng: -71.530759};
     var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
@@ -69,9 +68,7 @@ function initMap() {
     icon: "images/carro2.jpg"
   });
     solicitarEstimado();
-
 }
-
 //---------------------------ajax------------------
 function solicitarEstimado(){
     $.ajax({
@@ -83,10 +80,8 @@ function solicitarEstimado(){
         
     }) 
 }
-
 function update(_info){
     $(".partida").html(_info.origen);
     $(".llegada").html(_info.destino);
-    $(".precio").html(_info.estimado.moneda + _info.estimado.min);
+    $(".precio").html(_info.estimado.moneda + _info.estimado.min + " - " + _info.estimado.max);
 }
- 

@@ -26,7 +26,7 @@ function onCode(){
     var lab = "LAB-";
     var aleatorio = Math.floor((Math.random()*999)+100);
     var codigo = (lab += aleatorio);
-    alert("Tu código de usuario es : " + codigo + " dale doble next para continuar"); 
+    alert("Tu código de usuario es : " + codigo ); 
     var number = $("#input").val();
     localStorage.setItem("input", number);
 }

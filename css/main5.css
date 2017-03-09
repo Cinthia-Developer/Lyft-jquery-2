@@ -11,3 +11,4 @@ ul p{display: inline-block; font-size: 17px; margin: 10px; text-align: center; f
 ul span{font-size: 40px; margin: 10px;}
 ul h4{display: inline-block; margin: 20px;}
 li:hover{color: #4800b8; background: #f3f3f5;}
+li img{width: 10%; padding-left: 1%;}

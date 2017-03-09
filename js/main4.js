@@ -28,7 +28,6 @@ function validateEmail(){
 //--Funcion para validar el boton:
 function validToo(){
     if (firstNameChanges()==true && validateEmail()==true){
-        alert("Todo es correcto.! dale doble next para continuar")
         window.location="index5.html";
         onNextClick();
     }else{

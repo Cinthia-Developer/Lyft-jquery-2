@@ -75,7 +75,6 @@ function initMap(){
     icon: "images/carro2.jpg"
   });
 }
-
 function centrarMapa(position){
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
