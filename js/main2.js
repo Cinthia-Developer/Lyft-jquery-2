@@ -15,8 +15,7 @@ function validNumbers(evt){
 function validToo(){
     if (validNumbers()==true){
         onCode();
-        $("body").append("<a id='a' href='index4.html'></a>");
-        $("#submit").appendTo("#a");
+        window.location="index4.html";
     }else{
         alert("Número inválido, vuelve a intentar (máximo 10 dígitos)");
         $("#input").val("");

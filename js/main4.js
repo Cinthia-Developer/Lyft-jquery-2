@@ -29,8 +29,7 @@ function validateEmail(){
 function validToo(){
     if (firstNameChanges()==true && validateEmail()==true){
         alert("Todo es correcto.! dale doble next para continuar")
-        $("body").append("<a id='a' href='index5.html'></a>");
-        $("#submit").appendTo("#a");
+        window.location="index5.html";
         onNextClick();
     }else{
         alert("Datos inválidos, vuelve a intentar");
