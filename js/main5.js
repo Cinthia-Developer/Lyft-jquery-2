@@ -4,7 +4,6 @@ function init(){
         initMap();
     }
 }
-}
 //------------------posicionamiento de los carros-----------------
 function initMap(){
     var myLatLng = {lat: -16.457148 , lng: -71.530759};
