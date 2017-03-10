@@ -67,13 +67,6 @@ function initMap(){
     title: 'Franklin',
     icon: "images/carro2.jpg"
   });
-    var myLatLng8 = {lat: -16.453259 , lng: -71.530539};
-    var marker = new google.maps.Marker({
-    position: myLatLng8,
-    map: map,
-    title: 'Gustavo',
-    icon: "images/carro2.jpg"
-  });
 }
 function centrarMapa(position){
     var marker = new google.maps.Marker({
