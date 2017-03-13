@@ -28,5 +28,5 @@ h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow
 
 /*-----------------@media----------------*/
 @media screen and (max-width:767px){
-    .one, .two{top: 30%;}
+    .one, .two{top: 20%;}
 }
