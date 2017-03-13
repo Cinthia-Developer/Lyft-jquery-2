@@ -4,7 +4,7 @@
 .submit{bottom: 0.5%; width: 98%; margin: 1%; height: 13%; text-align: center; background: #ff00bf; font-size: 40px; border-radius: 10px; color: white;}
 #map{position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
 h2{position: relative; z-index: 5; text-align: center; color: white; text-shadow: -2px -2px 2px #bebcb6, 2px -2px 2px #bebcb6, -2px 2px 2px #bebcb6, 2px 2px 2px #bebcb6; font-size: 40px;}
-.one, .two{padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 25px; top: 40%;}
+.one, .two{padding: 10px 13px; border-radius: 100%; border: 2px solid #bebcb6; background: white; font-size: 25px; top: 30%;}
 .one{left: 3%;}
 .two{right: 3%;}
 /*----------cuadro---*/
