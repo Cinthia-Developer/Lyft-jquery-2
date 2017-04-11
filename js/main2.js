@@ -17,7 +17,7 @@ function validToo(){
         onCode();
         window.location="index4.html";
     }else{
-        alert("Número inválido, vuelve a intentar (máximo 10 dígitos)");
+        sweetAlert("Número inválido, vuelve a intentar.");
         $("#input").val("");
     }
 }

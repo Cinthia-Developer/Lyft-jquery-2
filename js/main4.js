@@ -31,7 +31,7 @@ function validToo(){
         window.location="index5.html";
         onNextClick();
     }else{
-        alert("Datos inválidos, vuelve a intentar");
+        sweetAlert("Datos inválidos, vuelve a intentar");
         $("#input1, #input2").val("");
     }
 }
